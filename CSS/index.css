@@ -1,13 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
     font-family: 'Poppins', sans-serif;
+    padding: 7px;
 }
 
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
+
 }
 
 nav {
@@ -23,23 +31,28 @@ ul {
 }
 
 .heroImg {
-    height: 600px;
+    height: 700px;
     padding: 25px;
     display: flex;
     justify-content: flex-start;
-    height: 250px;
+    
+
 }
 .about_paragraph {
     font-family: 'Poppins', sans-serif;
-    display:
+    display: block;
+    width: 900px;
     
 }
 
 .intro {
     font-size: 18px;
+    margin: 0px;
 }
 .name {
     font-size: 45px;
+    margin: 0px;
+
 }
 
 .content {
@@ -49,10 +62,56 @@ ul {
 
 footer { 
     background: black;
-    padding; 50px;
 }
-
-.footer { 
+.footer_section {
+   
+    
+}
+.footer_nav { 
     color: white;
     font-family: 'Poppins', sans-serif;
+   
+}
+.signature { 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button { 
+    
+
+}
+
+
+#behance {
+    background-image: url("../Images/Behance_button.png");
+    cursor: pointer;
+    border: none;
+    height:30px;
+    width:30px;
+    background-size:initial;
+}
+#chat {
+    background-image: url("../Images/Chat_button.png");
+    cursor: pointer;
+    border: none;
+    height:70px;
+    width:200px;
+    background-size:initial;
+}
+#Dribbble {
+    background-image: url("../Images/Dribbble_button.png");
+    cursor: pointer;
+    border: none;
+    height:30px;
+    width:30px;
+    background-size:initial;
+}
+#Linkedin {
+    background-image: url("../Images/Linkedin_button.png");
+    cursor: pointer;
+    border: none;
+    height:30px;
+    width:30px;
+    background-size:initial;
 }
